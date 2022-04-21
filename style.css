@@ -1,0 +1,123 @@
+body {
+  background-image: url(https://2va8xk2orpxt48gmu9bd2nl6-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/carpet-cleaning-846x565.jpeg);
+  margin: 0;
+}
+
+header {
+  background-color: #052f5f;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* added a sticky nav cause I like them, although ater adding hero image, unsure how to make the nav flush with the top/right/left side tried a few ways*/
+}
+
+img {
+  background-color: #052f5f;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+ 
+.nav ul {
+  background-color: #052f5f;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+
+.nav li {
+  background-color: #052f5f;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: #052f5f;
+  color: whitesmoke;
+  font-family: 'Nobile', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  /* increased size to make it easier to read, also chose to use blue becuase color theroy actually suggests it is precieved as a more eco-friendly color than green */
+}
+
+section {
+  width: 840px;
+  margin: 50px auto 0 auto;
+
+}
+
+.section-box{
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: #D9DBF1;
+  opacity: 75%;
+  margin-right: 40px;
+  border-radius: 10%;
+  padding: 60px;
+  /* wanted to cente this text entirely, unsire if there is a way to do this both from top and borrom and left and right at the same time */
+  font-family: 'Nobile', sans-serif;
+  color: #052f5f
+}
+
+h2, p{
+  text-align: center;
+}
+
+#quote-form-container {
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+  font-family: 'Nobile', sans-serif;
+}
+
+#quote-form {
+  text-align: center;
+  background-color: #D9DBF1;
+  opacity: 75%;
+  border-radius: 10%;
+  padding: 30px;
+}
+
+.form-field{
+  margin-bottom: 15px;
+}
+
+
+button {
+  border: none;
+  background-color: #052f5f;
+  color: white;
+  font-size: 16px;
+  font-family: 'Nobile', sans-serif;
+  height: 40px;
+  width:  80px;
+}
+label{
+  font-family: 'Nobile', sans-serif;
+  color: #052f5f
+  /* needed this to change the font of the form text */
+}
+.hero-image{
+height: auto;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -100;
+}
